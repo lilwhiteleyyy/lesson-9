@@ -172,4 +172,21 @@
     font-size: small;
   }
   
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .slider-text {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  .arrow-left {
+    order: -1;
+  }  
+
   
