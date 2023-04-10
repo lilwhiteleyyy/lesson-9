@@ -241,3 +241,28 @@
   border: 1px solid white;
   font-weight: bold;
 }
+.home-about{
+  margin-top: -540px;
+  margin-left: 540px;
+  
+}
+.product-p{
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+  opacity: 50%;
+}
+.lap-tabl{
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+  
+}
+.laptops-name{
+  font-size: 40px;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fff;
+}
