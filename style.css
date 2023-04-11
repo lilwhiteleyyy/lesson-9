@@ -369,11 +369,13 @@ label {
 }
 
 .like {
+  margin-top: -4px;
   padding: 4px;
   border: 1px solid #2c71b8;
 }
 
 .frame {
+  margin-top: -6px;
   padding: 3px;
   border: 1px solid #2c71b8;
 }
@@ -450,4 +452,42 @@ label {
 
 .btn_add .backet {
   margin-left: 10px;
+}
+
+.card2 {
+  margin-top: -507px;
+  margin-left: 500px;
+  max-width: 231px;
+  border: 1px solid #fff;
+  color: #fff;
+
+}
+
+.product2-img {
+  width: 230px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.657);
+}
+
+.console {
+  width: 83px;
+  height: 70px;
+}
+
+.icons2 {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.like-active {
+  background-color: #2c71b8;
 }
