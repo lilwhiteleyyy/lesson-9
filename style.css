@@ -404,7 +404,7 @@ label {
 }
 
 .product-price {
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 5px;
   display: flex;
   align-items: center;
@@ -427,6 +427,7 @@ label {
 
 .btn_details {
   margin-bottom: 10px;
+  margin-top: 15px;
   width: 180px;
   padding: 10px 15px;
   border: 1px solid #fff;
