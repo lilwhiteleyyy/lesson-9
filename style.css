@@ -213,6 +213,8 @@ button {
   justify-content: center;
   padding: 150px 0;
   border-bottom: 1px solid #fff;
+  background-color: rgba(15, 81, 146, 0.771);
+  opacity: 0.6;
 }
 
 .slider-text {
