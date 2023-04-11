@@ -478,7 +478,7 @@ label {
   height: 70px;
 }
 
-.icons2 {
+.icons {
   position: absolute;
   top: 15px;
   right: 10px;
@@ -516,7 +516,41 @@ label {
   height: 70px;
 }
 
-.icons3 {
+.icons {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.card4 {
+  margin-top: 25px;
+  margin-left: 240px;
+  max-width: 231px;
+  border: 1px solid #fff;
+  color: #fff;
+
+}
+
+.product4-img {
+  width: 230px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.657);
+}
+
+.console {
+  width: 83px;
+  height: 70px;
+}
+
+.icons {
   position: absolute;
   top: 15px;
   right: 10px;
