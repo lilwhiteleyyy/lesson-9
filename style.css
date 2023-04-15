@@ -261,6 +261,7 @@ input {
 
 label {
 
+
   color: #ffffffd2;
 
 }
@@ -268,7 +269,7 @@ label {
 .text-category {
 
   margin-left: 15px;
-  margin-top: 15px;
+  margin-top: 20px;
 
   color: #ffffffd2;
 
@@ -280,10 +281,12 @@ label {
   margin-left: -6px;
 }
 
+
+
 .color-name,
 .ram-name {
 
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 
@@ -757,15 +760,22 @@ label {
 }
 
 
-
-.device-input-label::before {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid red;
+.load {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
 }
 
-.filter-checkbox-input:checked+.device-input-label::before {
-  background-color: red;
+.footer {
+  display: flex;
+  flex: 0 0 auto;
+  color: #2c71b8;
+  margin-top: 80px;
+  font-size: 21px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.75);
 }
