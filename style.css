@@ -228,10 +228,15 @@ button {
 }
 
 .container {
+
   margin-left: 200px;
 }
 
+
+
 .category {
+
+
   padding: 20px;
   max-width: 215px;
   border-right: 1px solid #fff;
@@ -247,7 +252,10 @@ button {
 
 }
 
+
+
 input {
+
   margin-top: 10px;
 }
 
@@ -258,6 +266,7 @@ label {
 }
 
 .text-category {
+
   margin-left: 15px;
   margin-top: 15px;
 
@@ -266,18 +275,21 @@ label {
 }
 
 .type {
+
   margin-top: 10px;
   margin-left: -6px;
 }
 
 .color-name,
 .ram-name {
+
   margin-top: 20px;
 
 }
 
 .ram-name {
-  margin-bottom: 15px;
+
+  margin-bottom: -5px;
 }
 
 .sub-btn {
@@ -354,6 +366,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .iMac {
@@ -474,6 +487,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .console {
@@ -512,6 +526,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .console {
@@ -546,7 +561,10 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
+
+
 
 .console {
   width: 83px;
@@ -580,6 +598,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .console {
@@ -614,6 +633,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .console {
@@ -648,6 +668,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .console {
@@ -682,6 +703,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .console {
@@ -716,6 +738,7 @@ label {
   justify-content: center;
   position: relative;
   background-color: rgba(255, 255, 255, 0.657);
+  border-bottom: 1px solid #fff;
 }
 
 .console {
@@ -731,4 +754,18 @@ label {
   align-items: center;
   flex-direction: column;
   row-gap: 10px;
+}
+
+
+
+.device-input-label::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+}
+
+.filter-checkbox-input:checked+.device-input-label::before {
+  background-color: red;
 }
